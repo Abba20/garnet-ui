@@ -1,0 +1,19 @@
+.top{
+    background-color: pink;
+    padding: 3em;
+}
+
+.middle{
+    background-color: red;
+    padding: 5em;
+}
+
+.Bottom {
+    background-color: pink;
+    padding: 3em;
+}
+
+.fLogo, .gLogo, .iLogo, .lLogo, .tLogo {
+    height: 20px;
+    width: 20px
+}
