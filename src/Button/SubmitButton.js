@@ -1,30 +1,6 @@
-/*import React from 'react';
-import ReactDOM from 'react-dom';
-//import Button from './Button/Button';
-
-class SubmitButton extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <div>
-                <button onSubmit={() => {
-                   alert('Your information has been submitted.');
-                  } }>Submit</button>                  
-            </div>
-        );
-    }
-}
-
-ReactDOM.render(<SubmitButton/>, document.getElementById('root'));
-
-export default SubmitButton;
-*/
-
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './Button.css';
 
 class SubmitButton extends React.Component {
     constructor(props) {
@@ -39,8 +15,8 @@ class SubmitButton extends React.Component {
   
     render() {
       return (
-        <form className="sbutton" onSubmit={this.eventHandler}>
-          <button type="submit" value="Submit">Submit</button>
+        <form onSubmit={this.eventHandler}>
+          <button type="submit"  className="sbutton" value="Submit">Submit</button>
         </form>
       );
     }

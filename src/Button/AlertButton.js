@@ -1,6 +1,7 @@
 import React, { Componet } from 'react';
 import ReactDOM from 'react-dom';
 //import Button from './Button/Button';
+import './Button.css';
 
 class AlertButton extends React.Component {
     constructor(props) {

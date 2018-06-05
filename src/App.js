@@ -25,6 +25,7 @@ class App extends Component {
         
         <div>
           <div className="buttonComponents"> 
+            <h4>Button</h4>
             <Button/> 
             <AlertButton/>
             <ResetButton/>
@@ -32,12 +33,14 @@ class App extends Component {
           </div>
 
           <div className="navigationComponents">
+            <h4>Navigation</h4>
             <Navigation/>
             <NavigationUnresponsive/>
             <NavigationResponsive/>
           </div>
 
           <div className="footerComponents">
+            <h4>Footer</h4>
             <Footer/>
             <StackedFooter/>
           </div>

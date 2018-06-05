@@ -13,28 +13,28 @@ class StackedFooter extends React.Component {
         return (
             <footer>
                 <div className="footerSize">
-                    <container className="top">
-                        <img src={facebookLogo} className="fLogo" alt="facebookLogo" />
-                        <img src={googlePlusLogo} className="gLogo" alt="googlePlusLogo" />
-                        <img src={instagramLogo} className="iLogo" alt="instagramLogo" />
-                        <img src={linkedinLogo} className="lLogo" alt="linkedinLogo" />
-                        <img src={twitterLogo} className="tLogo" alt="twitterLogo" />
-                    </container>
+                    <div className="top">
+                        <a href= "https://www.facebook.com/"> <img src={facebookLogo} className="fLogo" alt="facebookLogo" /></a> {"  "}
+                        <a href= "https://plus.google.com/discover"> <img src={googlePlusLogo} className="gLogo" alt="googlePlusLogo" /></a> {"  "}
+                        <a href= "https://www.instagram.com/"> <img src={instagramLogo} className="iLogo" alt="instagramLogo" /></a> {"  "}
+                        <a href= "https://www.linkedin.com/"> <img src={linkedinLogo} className="lLogo" alt="linkedinLogo" /></a> {"  "}
+                        <a href= "https://twitter.com/"> <img src={twitterLogo} className="tLogo" alt="twitterLogo" /></a> {"  "}
+                    </div>
 
-                    <container className="middle">
-                        <row md="6">
+                    <div className="middle">
                             <column align="left">
                                 <h5>Contact</h5>
+                                <h6>The contact information of the business place</h6>
                             </column>
                             <column align="right">
                                 <h5>Products</h5>
+                                <h6>The list of products sold by the business</h6>
                             </column>
-                        </row>
-                    </container>
+                    </div>
 
-                    <container className="bottom">
+                    <div className="bottom">
                         &copy; {(new Date().getFullYear())} Copyright
-                    </container>
+                    </div>
                 </div>
             </footer>
         );

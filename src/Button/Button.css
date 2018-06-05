@@ -1,18 +1,24 @@
 
 .button1 {
-    background: red;
-    border-radius: 8px;
-    color: red;
+    border-radius: 8px 8px;
+    color: blue;
+    padding: 0.5em;
 }
 
 .alert {
-    color: 
+    color: red;
+    border-radius: 8px 8px;
+    padding: 0.5em;
 }
 
 .rbutton {
-
+    color: green;
+    border-radius: 8px 8px;
+    padding: 0.5em;
 }
 
 .sbutton {
-
+    color: green;
+    border-radius: 8px 8px;
+    padding: 0.5em;
 }

@@ -1,16 +1,16 @@
 .top{
-    background-color: pink;
-    padding: 3em;
+    background-color: deepskyblue;
+    padding: 1em;
 }
 
 .middle{
-    background-color: red;
+    background-color: lightseagreen;
     padding: 5em;
 }
 
-.Bottom {
-    background-color: pink;
-    padding: 3em;
+.bottom {
+    background-color: deepskyblue;
+    padding: 1em;
 }
 
 .fLogo, .gLogo, .iLogo, .lLogo, .tLogo {

@@ -18,11 +18,11 @@ class NavigationResponsive extends React.Component {
                     <a >
                         <i class="fa fa-bars"></i>
                     </a>
-                    <a href= "#Tab1" class="active"> Link 1</a>    
-                    <a href= "#Tab2"> Link 2</a>
-                    <a href= "#Tab3"> Link 3</a>
-                    <a href= "#Tab4"> Link 4</a>
-                    <a href= "#Tab5"> Link 5</a>       
+                    <a href= "#Tab1" class="active"> Tab 1</a>    
+                    <a href= "#Tab2"> Tab 2</a>
+                    <a href= "#Tab3"> Tab 3</a>
+                    <a href= "#Tab4"> Tab 4</a>
+                    <a href= "#Tab5"> Tab 5</a>       
                 </nav>
             </div>
         );
