@@ -22,14 +22,21 @@ class StackedFooter extends React.Component {
                     </div>
 
                     <div className="middle">
+                        <table align="center">
+                            <td className="col1">
                             <column align="left">
                                 <h5>Contact</h5>
                                 <h6>The contact information of the business place</h6>
                             </column>
+                            </td>
+
+                            <td className="col2">
                             <column align="right">
                                 <h5>Products</h5>
                                 <h6>The list of products sold by the business</h6>
                             </column>
+                            </td>
+                        </table>  
                     </div>
 
                     <div className="bottom">

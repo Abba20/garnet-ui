@@ -10,6 +10,7 @@ import ResetButton from './Button/ResetButton';
 import Navigation from './Navigation/Navigation';
 import NavigationUnresponsive from './Navigation/NavigationUnresponsive';
 import NavigationResponsive from './Navigation/NavigationResponsive';
+import NavigationResponsiveTwo from './Navigation/NavigationResponsiveTwo'
 
 import Footer from './Footer/Footer';
 import StackedFooter from './Footer/StackedFooter';
@@ -34,8 +35,8 @@ class App extends Component {
 
           <div className="navigationComponents">
             <h4>Navigation</h4>
-            <Navigation/>
-            <NavigationUnresponsive/>
+           {/* <Navigation/>
+            <NavigationUnresponsive/> */}
             <NavigationResponsive/>
           </div>
 
