@@ -1,4 +1,4 @@
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+import { Navbar, Jumbotron, Button, NavbarHeader, NavItem, MenuItem, NavDropdown, Nav, Collapse } from 'react-bootstrap';
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';

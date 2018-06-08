@@ -4,7 +4,7 @@ import NavbarHeader from './react-bootstrap/lib/NavHeader';
 import Collapse from './recat-bootstrap/lib/Collapse';
 import Navbar from './react-bootstrap/lib/Navbar';
 import NavItem from './react-bootstrap/lib/NavItem';
-//import MenuItem from './react-bootstrap/lib/MenuItem';
+import MenuItem from './react-bootstrap/lib/MenuItem';
 import Nav from './react-bootstrap/lib/Nav';
 import NavDropdown from './react-bootstrap/lib/NavDropdown';
 
